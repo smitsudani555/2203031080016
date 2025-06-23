@@ -19,7 +19,10 @@
   },
   "homepage": "https://github.com/smitsudani555/2203031080016#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
-    "express": "^5.1.0"
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2"
   }
 }
