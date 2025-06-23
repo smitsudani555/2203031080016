@@ -18,7 +18,7 @@ app.post('/test-logging', async (req, res) => {
         console.log(req.body);
         const { stack = "backend", level, package, message } = req.body;
         await logging(stack, level, package, message);
-        res.send("Completed");
+        res.send("success");
     } catch (err) {
         console.error("Logging failed:", err.message);
         res.status(500).send("Logging failed");

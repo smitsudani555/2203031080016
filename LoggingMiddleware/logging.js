@@ -2,7 +2,6 @@ const fs = require("fs");
 const dotenv = require("dotenv");
 const fetch = require("node-fetch");
 
-// Load environment variables
 dotenv.config();
 
 const LOG_URL = process.env.LOG_API;
